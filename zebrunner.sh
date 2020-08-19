@@ -469,6 +469,8 @@
     export ZBR_ACCESS_KEY=$ZBR_ACCESS_KEY
     export ZBR_SECRET_KEY=$ZBR_SECRET_KEY
 
+    # for AWS S3 integration S3_ENDPOINT should be blank!
+    export ZBR_S3_ENDPOINT=
   }
 
   export_settings() {
